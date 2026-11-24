@@ -31,5 +31,6 @@ async function bootstrap() {
   await app.listen(envs.port ?? 3000);
 
   logger.log(`Payments Microservice running on port ${envs.port ?? 3000}`);
+  logger.log(`Helth check working`);
 }
 await bootstrap();
